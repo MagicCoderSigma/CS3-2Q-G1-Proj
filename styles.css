@@ -1,0 +1,325 @@
+/*For body*/
+
+body, * {
+	align-content: center;
+	color: white;
+	font-family: "sans serif";
+	margin: 0;
+}
+
+body {
+	background-color: black;
+}
+
+hr {
+	border-color: gray;
+}
+
+/*For all links*/
+
+a {
+	text-decoration: none;
+	border-radius: 25px;
+}
+
+a:hover {
+	color: gray;
+}
+
+a:active {
+	color: #880808;
+}
+
+/*For all Sections*/
+
+section {
+	opacity: 0.75;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*For Design Blocks*/
+
+.designr {
+	border-bottom: 15px solid #880808;
+	height: 0;
+	width: 500px;
+	float: right;
+}
+
+.designl {
+	border-bottom: 15px solid #880808;
+	height: 0;
+	width: 500px;
+	float: left;
+}
+
+/*For Navigation and Header*/
+
+.headlogo {
+	width: 400px;
+	margin: 0 auto;
+	padding-bottom: 2px;
+	display: block;
+	top: 0;
+	transform: translateY(-10px);
+}
+
+header {
+	display: block;
+	position: fixed;
+	z-index: 100;
+	right: 0;
+	left: 0;
+	background-color: black;
+	height: 110px;
+}
+
+nav {
+	display: inline;
+	background-color: black;
+}
+
+.navtext {
+	padding: 0px 40px 0px 25px;
+	padding-top: -5px;
+}
+
+nav li {
+	list-style-type: none;
+	padding: 0px 60px 0px 25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navleft {
+	float: left;
+	transform: translateY(50px);
+}
+
+.navright {
+	float: right;
+	transform: translateY(-68px);
+}
+
+nav ul {
+	display: block;
+}
+
+header hr {
+	transform: translateY(-34px);
+}
+
+.navleftside {
+	margin-right: 100px;
+}
+
+/*For the About us Section*/
+
+section.aboutus span{
+	font-size: 100px;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-weight: bold;
+}
+
+section.aboutus div.about{
+	font-size: 32px;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-image: url('dialogbox.png');
+	background-size: 94% 95%;
+	color: black;
+	padding-right: 175px;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+section.aboutus .dialogicon{
+	float: left;
+	height: 100px;
+	transform: translateY(550px) translateX(1301px);
+}
+
+.aboutus {
+	display: block;
+	font-size: 29px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+
+/*For the Articles Section*/
+
+section.articles h1{
+	font-size: 100px;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.articles {
+	padding: 0px 10px 0px 10px;
+}
+
+img.stack {
+	border-radius: 25px;
+	height: 200px;
+}
+
+img.single {
+	border-radius: 25px;
+	height: 404px;
+}
+
+.articletitle {
+	display: none;
+	transform: translateY(-180px);
+	text-align: center;
+	font-size: 28px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.more {
+	font-size: 40px;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.more a:link {
+	color: black;
+}
+
+.more:hover {
+	background-color: gray;
+}
+
+.more:active {
+	background-color: #880808;
+}
+
+.more img {
+	width: 60px;
+}
+
+.hiddenstack {
+	display: none;
+	font-size: 30px;
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.5) 20%,rgba(0, 0, 0, 1.0) 100%);
+	height: 100px;
+	position: absolute;
+	opacity: 75%;
+	width: 20.02%;
+	transform: translateY(-105px);
+	border-end-end-radius: 25px;
+	border-end-start-radius: 25px;
+	pointer-events: none;
+}
+
+a:hover + .hiddenstack {
+	display: block;
+}
+
+.hiddensingle {
+	display: none;
+	font-size: 30px;
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.5) 20%,rgba(0, 0, 0, 1.0) 100%);
+	height: 200px;
+	position: absolute;
+	opacity: 75%;
+	width: 22.9%;
+	transform: translateY(-205px);
+	border-end-end-radius: 25px;
+	border-end-start-radius: 25px;
+	pointer-events: none;
+}
+
+a:hover + .hiddensingle {
+	display: block;
+}
+
+/*For the Story of the Day Section */
+
+.name {
+	display: block;
+	font-size: 40px;
+	text-align: center;
+}
+
+.storyimage {
+	width: 450px;
+	border-radius: 25px;
+}
+
+.storytext {
+	text-align: left;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+
+.story {
+	font-size: 24px;
+	text-align: center;
+	align-content: center;
+}
+
+section.recentstories th {
+	font-size: 100px;
+	text-align: center;
+	text-align: center;
+	padding-left: 20px;
+}
+
+section.story h1 {
+	font-size: 100px;
+	text-align: center;
+}
+
+/*For the footer */
+
+ul {
+	margin-left: 95px;
+}
+
+footer li {
+	list-style-type: none;
+	float: left;
+	padding-left: 37px;
+	padding-right: 37px;
+	align-content: center;
+}
+
+footer div {
+	padding-left: 400px;
+	align-content: center;
+}
+
+footer div img {
+	height: 30px;
+}
+
+footer a:hover {
+	opacity: 0.5;
+}
+
+footer>center>img {
+	width: 400px;
+}
+
+footer hr {
+	transform: translateY(-20px);
+}
